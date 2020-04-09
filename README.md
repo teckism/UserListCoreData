@@ -12,7 +12,7 @@ This sample is written in Swift.
 
 ## Application Architecture
 
-The sample project includes iOS app targets, iOS app extensions, and pods dependencies. Also it follows an architecture which is a modified form of Model-View-ViewModel (MVVM) design pattern and uses modern app development practices including Storyboards and Auto Layout. In the iOS version of Lister, the user manages multiple lists using a table view implemented in the {AAPL}ListDocumentsViewController class.
+The sample project includes iOS app targets, iOS app extensions, and pods dependencies. Also it follows an architecture which is a modified form of Model-View-ViewModel (MVVM) design pattern and uses modern app development practices including Storyboards and Auto Layout. In the iOS version, the user can see list of people using a table view implemented in the UsersListViewController class.
 
 ###iOS Scenarios
 
