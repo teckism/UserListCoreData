@@ -2,16 +2,16 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/pankajteckchandani/Documents/StockList/StockList/Common/User+CoreDataClass.swift">
+      location = "group:StockList/User+CoreDataClass.swift">
    </FileRef>
    <FileRef
-      location = "group:/Users/pankajteckchandani/Documents/StockList/StockList/Common/User+CoreDataProperties.swift">
+      location = "group:StockList/User+CoreDataProperties.swift">
    </FileRef>
    <FileRef
-      location = "group:/Users/pankajteckchandani/Documents/StockList/StockList/Common/Blacklisted+CoreDataClass.swift">
+      location = "group:StockList/Blacklisted+CoreDataClass.swift">
    </FileRef>
    <FileRef
-      location = "group:/Users/pankajteckchandani/Documents/StockList/StockList/Common/Blacklisted+CoreDataProperties.swift">
+      location = "group:StockList/Blacklisted+CoreDataProperties.swift">
    </FileRef>
    <FileRef
       location = "group:StockList.xcodeproj">

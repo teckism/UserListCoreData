@@ -25,10 +25,10 @@
 		D63C2855243F1586006FC904 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C2854243F1586006FC904 /* Extensions.swift */; };
 		D63C2897243F1DC5006FC904 /* StockList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D63C2895243F1DC5006FC904 /* StockList.xcdatamodeld */; };
 		D63C28A2243F49C2006FC904 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C28A1243F49C2006FC904 /* Reachability.swift */; };
-		D63C28AB243F74C2006FC904 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C28A7243F74C1006FC904 /* User+CoreDataClass.swift */; };
-		D63C28AC243F74C2006FC904 /* Blacklisted+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C28A9243F74C1006FC904 /* Blacklisted+CoreDataProperties.swift */; };
-		D63C28AD243F74C2006FC904 /* Blacklisted+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C28A8243F74C1006FC904 /* Blacklisted+CoreDataClass.swift */; };
-		D63C28AE243F74C2006FC904 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C28AA243F74C1006FC904 /* User+CoreDataProperties.swift */; };
+		D691DEF724435B19004DDF0E /* Blacklisted+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691DEF624435B19004DDF0E /* Blacklisted+CoreDataProperties.swift */; };
+		D691DEF824435B19004DDF0E /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691DEF324435B19004DDF0E /* User+CoreDataProperties.swift */; };
+		D691DEF924435B19004DDF0E /* Blacklisted+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691DEF524435B19004DDF0E /* Blacklisted+CoreDataClass.swift */; };
+		D691DEFA24435B19004DDF0E /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691DEF424435B19004DDF0E /* User+CoreDataClass.swift */; };
 		FD26A129FCE108BFBA12996F /* Pods_StockListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A57FC623B3599D90627118 /* Pods_StockListTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,10 +79,10 @@
 		D63C2854243F1586006FC904 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D63C2896243F1DC5006FC904 /* StockList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StockList.xcdatamodel; sourceTree = "<group>"; };
 		D63C28A1243F49C2006FC904 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		D63C28A7243F74C1006FC904 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "/Users/pankajteckchandani/Documents/StockList/StockList/Common/User+CoreDataClass.swift"; sourceTree = "<absolute>"; };
-		D63C28A8243F74C1006FC904 /* Blacklisted+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Blacklisted+CoreDataClass.swift"; path = "/Users/pankajteckchandani/Documents/StockList/StockList/Common/Blacklisted+CoreDataClass.swift"; sourceTree = "<absolute>"; };
-		D63C28A9243F74C1006FC904 /* Blacklisted+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Blacklisted+CoreDataProperties.swift"; path = "/Users/pankajteckchandani/Documents/StockList/StockList/Common/Blacklisted+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
-		D63C28AA243F74C1006FC904 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "/Users/pankajteckchandani/Documents/StockList/StockList/Common/User+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		D691DEF324435B19004DDF0E /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "../User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D691DEF424435B19004DDF0E /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "../User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D691DEF524435B19004DDF0E /* Blacklisted+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Blacklisted+CoreDataClass.swift"; path = "../Blacklisted+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D691DEF624435B19004DDF0E /* Blacklisted+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Blacklisted+CoreDataProperties.swift"; path = "../Blacklisted+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F3A57FC623B3599D90627118 /* Pods_StockListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62309E949D3EB665B995B43 /* Pods_StockList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -205,10 +205,10 @@
 		D63C284A243E301D006FC904 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				D63C28A7243F74C1006FC904 /* User+CoreDataClass.swift */,
-				D63C28AA243F74C1006FC904 /* User+CoreDataProperties.swift */,
-				D63C28A8243F74C1006FC904 /* Blacklisted+CoreDataClass.swift */,
-				D63C28A9243F74C1006FC904 /* Blacklisted+CoreDataProperties.swift */,
+				D691DEF424435B19004DDF0E /* User+CoreDataClass.swift */,
+				D691DEF324435B19004DDF0E /* User+CoreDataProperties.swift */,
+				D691DEF524435B19004DDF0E /* Blacklisted+CoreDataClass.swift */,
+				D691DEF624435B19004DDF0E /* Blacklisted+CoreDataProperties.swift */,
 				D63C284F243E54F9006FC904 /* Models */,
 				D63C284B243E3029006FC904 /* Constants.swift */,
 				D63C284D243E3EDD006FC904 /* APIManager.swift */,
@@ -478,16 +478,16 @@
 			files = (
 				D63C2843243DC6D4006FC904 /* UsersListViewController.swift in Sources */,
 				D63C28A2243F49C2006FC904 /* Reachability.swift in Sources */,
+				D691DEF824435B19004DDF0E /* User+CoreDataProperties.swift in Sources */,
 				D63C2848243DF176006FC904 /* UserListItemTableViewCell.swift in Sources */,
 				D63C2851243E5501006FC904 /* SLUser.swift in Sources */,
+				D691DEF724435B19004DDF0E /* Blacklisted+CoreDataProperties.swift in Sources */,
+				D691DEFA24435B19004DDF0E /* User+CoreDataClass.swift in Sources */,
 				D63C2855243F1586006FC904 /* Extensions.swift in Sources */,
 				D63C284E243E3EDD006FC904 /* APIManager.swift in Sources */,
+				D691DEF924435B19004DDF0E /* Blacklisted+CoreDataClass.swift in Sources */,
 				D63C2813243DC559006FC904 /* AppDelegate.swift in Sources */,
 				D63C2897243F1DC5006FC904 /* StockList.xcdatamodeld in Sources */,
-				D63C28AD243F74C2006FC904 /* Blacklisted+CoreDataClass.swift in Sources */,
-				D63C28AC243F74C2006FC904 /* Blacklisted+CoreDataProperties.swift in Sources */,
-				D63C28AE243F74C2006FC904 /* User+CoreDataProperties.swift in Sources */,
-				D63C28AB243F74C2006FC904 /* User+CoreDataClass.swift in Sources */,
 				D63C2853243E5719006FC904 /* UsersListDataController.swift in Sources */,
 				D63C284C243E3029006FC904 /* Constants.swift in Sources */,
 			);
